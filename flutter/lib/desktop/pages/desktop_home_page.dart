@@ -301,6 +301,13 @@ class _DesktopHomePageState extends State<DesktopHomePage>
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
+            "Kimia Tahlil",
+            style: Theme.of(context).textTheme.titleLarge
+          ),
+          SizedBox(
+            height: 20.0,
+          ),
+          Text(
             translate("Your Desktop"),
             style: Theme.of(context).textTheme.titleLarge,
             // style: TextStyle(
